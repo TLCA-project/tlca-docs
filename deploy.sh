@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 set -e
-npm run docs:build
+yarn docs:build
 cd docs/.vuepress/dist
 
 echo 'docs.tlca.eu' > CNAME
