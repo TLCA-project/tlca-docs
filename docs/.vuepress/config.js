@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/tlca-docs/',
   locales: {
     '/': {
       lang: 'en-US',
