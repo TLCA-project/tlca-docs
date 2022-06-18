@@ -1,1 +1,3 @@
-# Bonjour monde
+---
+home: true
+---
