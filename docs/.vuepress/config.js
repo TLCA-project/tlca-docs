@@ -17,11 +17,19 @@ module.exports = {
         selectText: 'Languages',
         label: 'English',
         ariaLabel: 'Languages',
+        nav: [
+          { text: 'User guide', link: '/user/' },
+          { text: 'Developer guide', link: '/developer/' },
+        ],
       },
       '/fr/': {
         selectText: 'Langues',
         label: 'Français',
         ariaLabel: 'Langues',
+        nav: [
+          { text: 'Guide de l\'utilisateur', link: '/fr/user/' },
+          { text: 'Guide du développeur', link: '/fr/developer/' },
+        ],
       },
     },
   },
