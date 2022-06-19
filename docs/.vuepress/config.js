@@ -20,24 +20,25 @@ module.exports = {
     },
   },
   themeConfig: {
+    sidebarDepth: 2,
     locales: {
       '/': {
         selectText: 'Languages',
         label: 'English',
         ariaLabel: 'Languages',
         nav: [
-          { text: 'User guide', link: '/user/' },
-          { text: 'Developer guide', link: '/developer/' },
+          { text: 'User guide', link: '/user-guide/' },
+          { text: 'Developer guide', link: '/developer-guide/' },
           { text: 'About', link: '/about/' },
         ],
         sidebar: {
-          '/developer/': [
+          '/developer-guide/': [
             'data-model/',
             'graphql-api/',
           ],
           '/': [
-            'user/',
-            'developer/',
+            'user-guide/',
+            'developer-guide/',
             'about/',
           ],
         },
@@ -47,17 +48,22 @@ module.exports = {
         label: 'Français',
         ariaLabel: 'Langues',
         nav: [
-          { text: 'Guide de l\'utilisateur', link: '/fr/user/' },
-          { text: 'Guide du développeur', link: '/fr/developer/' },
+          { text: 'Guide de l\'utilisateur', link: '/fr/user-guide/' },
+          { text: 'Guide du développeur', link: '/fr/developer-guide/' },
           { text: 'À propos', link: '/fr/about/' },
         ],
         sidebar: {
-          '/fr/user/': [
+          '/fr/user-guide/students/': [
             'courses/',
+            'assessments/',
+          ],
+          '/fr/user-guide/': [
+            'students/',
+            'teachers/',
           ],
           '/fr/': [
-            'user/',
-            'developer/',
+            'user-guide/',
+            'developer-guide/',
             'about/',
           ],
         },
