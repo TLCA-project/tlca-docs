@@ -20,7 +20,19 @@ module.exports = {
         nav: [
           { text: 'User guide', link: '/user/' },
           { text: 'Developer guide', link: '/developer/' },
+          { text: 'About', link: '/about/' },
         ],
+        sidebar: {
+          '/developer/': [
+            'data-model/',
+            'graphql-api/',
+          ],
+          '/': [
+            'user/',
+            'developer/',
+            'about/',
+          ],
+        },
       },
       '/fr/': {
         selectText: 'Langues',
@@ -29,7 +41,19 @@ module.exports = {
         nav: [
           { text: 'Guide de l\'utilisateur', link: '/fr/user/' },
           { text: 'Guide du développeur', link: '/fr/developer/' },
+          { text: 'À propos', link: '/fr/about/' },
         ],
+        sidebar: {
+          '/fr/developer/': [
+            'data-model/',
+            'graphql-api/',
+          ],
+          '/fr/': [
+            'user/',
+            'developer/',
+            'about/',
+          ],
+        },
       },
     },
   },
