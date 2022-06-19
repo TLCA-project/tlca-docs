@@ -12,5 +12,8 @@
   },
   "devDependencies": {
     "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "vuepress-plugin-mermaidjs": "1.9.1"
   }
 }

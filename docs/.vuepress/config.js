@@ -1,4 +1,12 @@
 module.exports = {
+  plugins: [
+    [
+      'vuepress-plugin-mermaidjs',
+      {
+        theme: 'neutral',
+      },
+    ],
+  ],
   locales: {
     '/': {
       lang: 'en-US',
@@ -44,9 +52,8 @@ module.exports = {
           { text: 'À propos', link: '/fr/about/' },
         ],
         sidebar: {
-          '/fr/developer/': [
-            'data-model/',
-            'graphql-api/',
+          '/fr/user/': [
+            'courses/',
           ],
           '/fr/': [
             'user/',
